@@ -89,7 +89,7 @@ class SportsWalking(Training):
             (self.CALORIES_COEFFICIENT_1 * self.weight
              + ((self.get_mean_speed() * self.KMH_TO_MS) ** 2
                 / (self.height / self.SM_TO_M)) * self.CALORIES_COEFFICIENT_2
-            * self.weight) * (self.duration * self.HOUR_IN_MIN)
+             * self.weight) * (self.duration * self.HOUR_IN_MIN)
         )
 
 
